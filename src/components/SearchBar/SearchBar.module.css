@@ -1,0 +1,41 @@
+.header {
+  background-color: #ebebeb;
+  padding: 10px 48px;
+  border-radius: 16px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: left;
+}
+
+.form input,
+.form button {
+  background-color: transparent;
+  border: none;
+}
+
+.form input {
+  border-bottom: solid#484444 1px;
+  color: #484444;
+  font-size: 24px;
+}
+
+.form button {
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  color: transparent;
+  margin-right: 1rem;
+}
+
+.form button:hover {
+  cursor: pointer;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  color: #484444;
+}
