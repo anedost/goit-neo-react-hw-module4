@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const BASE_URL = "https://api.unsplash.com/";
-const ACCESS_KEY = "ldWvyHjhsnBHrn9GdJc3VtwRMAfU0k_8s1SKronK3rY";
+const ACCESS_KEY = "tsljGkwAckGl2xU9Y6ftWGOxqh5Azc43BvP4syyjNDU";
 
 const instance = axios.create({
   baseURL: BASE_URL,
